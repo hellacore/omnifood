@@ -7,13 +7,15 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: #fff;
   color: #555;
   font-family: "Lato", "Arial", sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 .clearfix {
@@ -101,10 +103,11 @@ h2:after {
 /* --------- ICONS ---------- */
 
 .icon-big {
-  font-size: 350%;
+  font-size: 340%;
   display: block;
   color: #e67e22;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  margin-left: -5px;
 }
 
 .icon-small {
@@ -193,7 +196,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
 }
 
 .hero-text-box {
