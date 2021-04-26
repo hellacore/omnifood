@@ -106,4 +106,11 @@ $(document).ready(function () {
     },
     { offset: "50%" }
   );
+
+  // MOBILE NAVIGATION
+  $(".js--nav-icon").click(function () {
+    const nav = $(".js--main-nav");
+
+    nav.slideToggle(200);
+  });
 });
